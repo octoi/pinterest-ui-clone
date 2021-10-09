@@ -1,3 +1,4 @@
+import 'package:app/widgets/top.dart';
 import 'package:flutter/material.dart';
 
 class HomeScreen extends StatelessWidget {
@@ -47,6 +48,14 @@ class HomeScreen extends StatelessWidget {
               ),
             ],
           ),
+        ),
+      ),
+      body: SingleChildScrollView(
+        physics: const BouncingScrollPhysics(),
+        child: Column(
+          children: const [
+            Top(),
+          ],
         ),
       ),
     );
