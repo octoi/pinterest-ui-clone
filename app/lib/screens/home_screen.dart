@@ -1,3 +1,4 @@
+import 'package:app/widgets/middle.dart';
 import 'package:app/widgets/top.dart';
 import 'package:flutter/material.dart';
 
@@ -55,6 +56,7 @@ class HomeScreen extends StatelessWidget {
         child: Column(
           children: const [
             Top(),
+            Middle(),
           ],
         ),
       ),
